@@ -23,17 +23,6 @@ namespace Classe_Compte
             solde += somme;
             Console.Out.WriteLine("Opération bien effectuée");
         }
-        public void Crediter(Compte C, double somme)
-        {
-            if(C.solde >= somme)
-            {
-                C.solde -= somme;
-                solde += somme;
-                Console.Out.WriteLine("Opération bien effectuée");
-            }
-            else
-               Console.Out.WriteLine("Solde du compte est insuff");
-        }
         public void Debiter(double somme)
         {
             solde -= somme;
