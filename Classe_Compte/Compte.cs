@@ -56,6 +56,7 @@ namespace Classe_Compte
             Console.Out.WriteLine("Solde de compte: " + solde);
             Console.Out.WriteLine("Propriétaire du compte est : ");
                 Proprietaire.afficher();
+            Console.Out.WriteLine();
         }
     }
 }
