@@ -14,11 +14,10 @@ namespace Classe_Compte
 
             //Crediter un compte
             Console.Out.WriteLine("\nCrediter le Compte");
-            c1.Crediter(c2, 1600);
+            c1.Crediter(1000);
 
             Console.Out.WriteLine("\nApres le credit: ");
             c1.afficher();
-            c2.afficher();
 
             //Debiter un compte
             Console.Out.WriteLine("\nDebiter le Compte");
